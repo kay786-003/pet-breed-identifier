@@ -51,7 +51,7 @@ async function uploadImageToGist(file) {
 
     const response = await axios.post('https://api.github.com/gists', gistData, {
         headers: {
-            'Authorization': 'token YOUR_GITHUB_PERSONAL_ACCESS_TOKEN'
+            'Authorization': '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'
         }
     });
 
